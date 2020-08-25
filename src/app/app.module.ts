@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CounterComponent } from './counter/counter.component';
+import { CounterParentComponent } from './counter-parent/counter-parent.component';
+import { ChangecolorDirective } from './changecolor.directive';
+import { ParentColorComponent } from './parent-color/parent-color.component';
+import { ThemeComponent } from './theme/theme.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterComponent,
+    CounterParentComponent,
+    ChangecolorDirective,
+    ParentColorComponent,
+    ThemeComponent
   ],
   imports: [
     BrowserModule,
